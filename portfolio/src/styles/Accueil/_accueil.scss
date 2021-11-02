@@ -1,0 +1,84 @@
+.accueil{
+   height: 86vh;
+   &__meteo{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+
+
+      &--heure{
+         color: $color-primary;
+         font-weight: bold;
+         font-size: 24px;
+      }.heure{
+         display: flex;
+         flex-direction: row;
+         align-items: baseline;
+         &__seconds{
+            font-size: 17px;
+            color: $color-secondary;
+         }
+      }
+
+      &--temp{
+         color: $color-primary;
+         font-weight: bold;
+         font-size: 24px;
+      }
+   }
+
+   &__informations{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 75%;
+
+      .informations{
+         width: 90%;
+
+         &__bonjour{
+            color: $color-secondary;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 25px;
+         }
+         
+         &__identite{
+            color: $color-primary;
+            font-size: 1.5rem;
+            font-weight: bold;
+         }
+         &__metier{
+            color: $color-primary_two;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 25px;
+         }
+         &__presentation{
+            color: $color-primary;
+            font-size: 1.1rem;
+         }
+      }
+
+
+
+      button{
+         border: 3px solid $color-secondary;
+         padding: 1rem 2rem 1rem 2rem;
+         border-radius: 12px;
+         font-size: 20px;
+         color: $color-secondary;
+         font-weight: bold;
+         &:hover{
+            color: #fff;
+            cursor: pointer;
+            background-color: $color-primary;
+            border: 3px solid $color-primary;
+            box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.74);
+            transition: 0.5s;
+         }
+      }
+   }
+}

@@ -1,0 +1,87 @@
+.projects{
+   background: linear-gradient(180deg, #F2F9FF 0%, rgba(242, 249, 255, 0) 100%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 200vh;
+   
+   &__container{
+     
+   }
+
+   &__title{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 25px;
+
+      img{
+         width: 40px;
+         height: 40px;
+      }
+      h2{
+         font-size: 1.5rem;
+         color: $color-secondary;
+         margin-left: 50px;
+         font-family:'Roboto';
+      }
+   }
+
+   &__content{
+      .project__bloc{
+         width: 250px;
+         height: 200px;
+         border-radius: 12px;
+         background-color: $color-primary;
+         margin: 20px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+         &:hover{
+            transform: translateY(-10px);
+            p{
+               color: $color-secondary
+            }
+            transition: 0.4s;
+            cursor: pointer; 
+         }
+
+         .project__content{
+            margin: 10px;
+            font-size: 1.2rem;
+            color: #fff;
+            font-weight: bold;
+         }
+
+         .project__description{
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height: 55%;
+            background-image: url('../../backgroundProjects/groupomania.png');
+            p{
+               background: rgba(53, 93, 124, 0.4);
+               height: 100%;
+               display: flex;
+               align-items: center;
+               font-size: 1rem;
+               color: #fff;
+               text-shadow: 0px 4px 3px rgba(150, 150, 150, 1);
+            }
+         }
+
+         .project__image{
+            img{
+               width: 20px;
+               margin-right: 15px;
+               border: 2px solid #fff;
+               border-radius: 100%;
+            }
+         }
+
+      }
+   }
+}

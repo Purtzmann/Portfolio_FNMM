@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style-type: none;
+   outline: none;
+   border: none;
+   text-decoration: none; 
+};
+
+p, li, h1, h2, li, ul{
+   font-family: 'Roboto';
+}
+
+$color-primary: #355D7C;
+$color-primary_two: #4F718B;
+$color-secondary: #EE5F2D;
+$color-secondary_two: #F08850;
+
