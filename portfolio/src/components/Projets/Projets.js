@@ -20,7 +20,7 @@ const Projets = () => {
                      <p>GROUPOMANIA</p>
                   </div>
                   <div className="project__description">
-                     <p>SOCIAL NETWORK FOR ENTREPRISE</p>
+                     <p>SOCIAL NETWORK POUR ENTREPRISE</p>
                   </div>
                   <div className="project__image">
                      <img src="./logo_techno/VS_60px.png" alt="" />
@@ -34,86 +34,73 @@ const Projets = () => {
 
                <div className="project__bloc">
                   <div className="project__content">
-                     <p>GROUPOMANIA</p>
+                     <p>SOPECKO</p>
                   </div>
                   <div className="project__description">
-                     <p>SOCIAL NETWORK FOR ENTREPRISE</p>
+                     <p>MISE EN PLACE D'UNE API POUR UN FORUM</p>
                   </div>
                   <div className="project__image">
                      <img src="./logo_techno/VS_60px.png" alt="" />
-                     <img src="./logo_techno/html_60px.png" alt="" />
-                     <img src="./logo_techno/sass_60px.png" alt="" />
-                     <img src="./logo_techno/react_60px.png" alt="" />
-                     <img src="./logo_techno/redux_60px.png" alt="" />
-                     <img src="./logo_techno/mysql_60px.png" alt="" />
+                     <img src="./logo_techno/JS_60px.png" alt="" />
+                     <img src="./logo_techno/mongo_60px.png" alt="" />
                   </div>
                </div>
 
                <div className="project__bloc">
                   <div className="project__content">
-                     <p>GROUPOMANIA</p>
+                     <p>ORINOCO</p>
                   </div>
                   <div className="project__description">
-                     <p>SOCIAL NETWORK FOR ENTREPRISE</p>
+                     <p>CREATION D'UN SITE ECOMMERCE POUR LA VENTE DE PELUCHES</p>
                   </div>
                   <div className="project__image">
                      <img src="./logo_techno/VS_60px.png" alt="" />
                      <img src="./logo_techno/html_60px.png" alt="" />
                      <img src="./logo_techno/sass_60px.png" alt="" />
-                     <img src="./logo_techno/react_60px.png" alt="" />
-                     <img src="./logo_techno/redux_60px.png" alt="" />
-                     <img src="./logo_techno/mysql_60px.png" alt="" />
+                     <img src="./logo_techno/JS_60px.png" alt="" />
+                     <img src="./logo_techno/mongo_60px.png" alt="" />
                   </div>
                </div>
 
                <div className="project__bloc">
                   <div className="project__content">
-                     <p>GROUPOMANIA</p>
+                     <p>LA CHOUETTE AGENCE</p>
                   </div>
                   <div className="project__description">
-                     <p>SOCIAL NETWORK FOR ENTREPRISE</p>
+                     <p>OPTIMISATION SEO POUR LE SITE D'UNE AGENCE </p>
                   </div>
                   <div className="project__image">
                      <img src="./logo_techno/VS_60px.png" alt="" />
                      <img src="./logo_techno/html_60px.png" alt="" />
-                     <img src="./logo_techno/sass_60px.png" alt="" />
-                     <img src="./logo_techno/react_60px.png" alt="" />
-                     <img src="./logo_techno/redux_60px.png" alt="" />
-                     <img src="./logo_techno/mysql_60px.png" alt="" />
+                     <img src="./logo_techno/css_60px.png" alt="" />
                   </div>
                </div>
 
                <div className="project__bloc">
                   <div className="project__content">
-                     <p>GROUPOMANIA</p>
+                     <p>OHMYFOOD</p>
                   </div>
                   <div className="project__description">
-                     <p>SOCIAL NETWORK FOR ENTREPRISE</p>
+                     <p>MOBILE WEBISTE POUR DES CARTES DE RESTAURANTS</p>
                   </div>
                   <div className="project__image">
                      <img src="./logo_techno/VS_60px.png" alt="" />
                      <img src="./logo_techno/html_60px.png" alt="" />
-                     <img src="./logo_techno/sass_60px.png" alt="" />
-                     <img src="./logo_techno/react_60px.png" alt="" />
-                     <img src="./logo_techno/redux_60px.png" alt="" />
-                     <img src="./logo_techno/mysql_60px.png" alt="" />
+                     <img src="./logo_techno/css_60px.png" alt="" />
                   </div>
                </div>
 
                <div className="project__bloc">
                   <div className="project__content">
-                     <p>GROUPOMANIA</p>
+                     <p>RESERVIA</p>
                   </div>
                   <div className="project__description">
-                     <p>SOCIAL NETWORK FOR ENTREPRISE</p>
+                     <p>HOME PAGE POUR UN SITE DE RESERVATION </p>
                   </div>
                   <div className="project__image">
                      <img src="./logo_techno/VS_60px.png" alt="" />
                      <img src="./logo_techno/html_60px.png" alt="" />
-                     <img src="./logo_techno/sass_60px.png" alt="" />
-                     <img src="./logo_techno/react_60px.png" alt="" />
-                     <img src="./logo_techno/redux_60px.png" alt="" />
-                     <img src="./logo_techno/mysql_60px.png" alt="" />
+                     <img src="./logo_techno/css_60px.png" alt="" />
                   </div>
                </div>
                

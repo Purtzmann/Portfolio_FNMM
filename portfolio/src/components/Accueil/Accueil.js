@@ -45,8 +45,7 @@ const Accueil = () => {
                <h2 className="informations__bonjour">Bonjour, je suis</h2>
                <p className="informations__identite">François-Nicolas Marc-Martin,</p>
                <p className="informations__metier">Developpeur Web. </p>
-               <p className="informations__presentation">Je suis un ingénieur logiciel spécialisé dans la création (et parfois la conception) d'expériences numériques exceptionnelles. Actuellement, je me concentre 
-                  sur la création de produits accessibles et centrés sur l'humain chez Upstatement.</p>
+               <p className="informations__presentation">Je suis développeur web junior spécialisé dans la création de site web. Actuellement à la recheche d'un job en tant que développeur front end.</p>
             </div>
 
             <div>

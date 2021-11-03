@@ -7,6 +7,8 @@
       flex-direction: row;
    }
 
+   
+
    &__meteo{
       display: flex;
       flex-direction: row;
@@ -21,6 +23,7 @@
 
 
       &--heure{
+         display: flex;
          color: $color-primary;
          font-weight: bold;
          font-size: 24px;
@@ -34,7 +37,9 @@
          }
       }
 
+
       &--temp{
+
          color: $color-primary;
          font-weight: bold;
          font-size: 24px;

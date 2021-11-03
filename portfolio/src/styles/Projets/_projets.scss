@@ -93,13 +93,15 @@
             align-items: center;
             text-align: center;
             height: 55%;
-            background-image: url('../../backgroundProjects/groupomania.png');
+            background-color: $color-primary-two;
+            width: 100%;
             p{
                background: rgba(53, 93, 124, 0.4);
                height: 100%;
                display: flex;
                align-items: center;
                font-size: 1rem;
+               padding: 10px;
                @media only screen and (min-device-width : 1024px)  {
                   font-size: 1.2rem;
                }

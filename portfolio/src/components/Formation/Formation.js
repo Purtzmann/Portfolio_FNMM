@@ -14,6 +14,7 @@ const Formation = () => {
             <div className="formation__content">
 
                <div className="formation__image">
+                  <p>FORMATIONS</p>
                   <img src="./Images/laptop-g518aa136d_1280.png"/>
                </div>
 
