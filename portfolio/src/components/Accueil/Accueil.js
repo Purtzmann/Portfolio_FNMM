@@ -47,10 +47,6 @@ const Accueil = () => {
                <p className="informations__metier">Developpeur Web. </p>
                <p className="informations__presentation">Je suis développeur web junior spécialisé dans la création de site web. Actuellement à la recheche d'un job en tant que développeur front end.</p>
             </div>
-
-            <div>
-               <button>En savoir plus</button>
-            </div>
          </div>
       </section>
    );
