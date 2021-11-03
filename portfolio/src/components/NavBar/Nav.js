@@ -9,7 +9,6 @@ const Nav = () => {
             </div>
             <div className="container__nav">
                <ul>
-                  <li><a href="#">Accueil</a></li>
                   <li><a href="#projects">Projets</a></li>
                   <li><a href="#formation">Formations</a></li>
                   <li><a href="#experience">Experiences</a></li>
