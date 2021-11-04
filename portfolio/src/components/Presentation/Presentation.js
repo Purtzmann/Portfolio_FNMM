@@ -15,16 +15,11 @@ const Presentation = () => {
             <div className="about__content">
                <div className="about__description">
                   <div>
-                     <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
-                     <p>Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p>
-                     <p>I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.</p>
+                     <p>Bonjour! Je m'appelle François-Nicolas, j’ai 28 ans développeur web junior. J’ai commencé dans le monde du travail par du marketing avec une spécialisation pour le CRM et l’analyse de données. </p>
+                     <p>En 2020 je me suis lancé dans une reconversion professionnelle pour devenir développeur web spécialisé front-end via une formation avec Openclassrooms.</p>
+                     <p>Aujourd’hui mon objectif est de trouver un projet ou un travail dans le  développement de site et application web pour une agence ou un annonceur.</p>
+                     <p>Mon langage actuel pour le développement web est le JavaScript et son frameworks REACT</p>
                   </div>
-                  <ul>
-                     <li>HTML</li>
-                     <li>CSS</li>
-                     <li>JAVASCRIPT</li>
-                     <li>NODE.JS</li>
-                  </ul>
                </div>
 
                <div className="about__image">
