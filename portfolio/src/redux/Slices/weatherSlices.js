@@ -9,7 +9,7 @@ export const fetchWeatherAction = createAsyncThunk(
 	'weather/fetch',
 	async (payload, {rejectWithValue, getState, dispatch}) => {
 		try{
-			const {data} = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${payload}&appid=${APIkey}`)
+			const {data} = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${payload}&appid=${APIkey}`)
 			return data;
 		} catch (error) {
 				if(!error?.response){
