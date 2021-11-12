@@ -17,7 +17,7 @@ const Experiences = () => {
 
                   <div className="experience__description__study">
                      <div className="experience__date"><p>2020</p></div>
-                     <div className="experience__logo"><img src="./logo_formation/eauvive_100px.png"/></div>
+                     <div className="experience__logo"><img src="./logo_formation/eauvive_100px.png" alt="logo_eauvive" /></div>
                      <div className="experience__name">
                         <p>L'Eau Vive</p>
                         <p>Chargé de marketin relationnel</p>
@@ -26,7 +26,7 @@ const Experiences = () => {
 
                   <div className="experience__description__study">
                      <div className="experience__date"><p>2019</p></div>
-                     <div className="experience__logo"><img src="./logo_formation/lvc_100px.png"/></div>
+                     <div className="experience__logo"><img src="./logo_formation/lvc_100px.png" alt="logo_laVieClaire"/></div>
                      <div className="experience__name">
                         <p>La Vie Claire</p>
                         <p>Chargé de marketin relationnel</p>
@@ -36,7 +36,7 @@ const Experiences = () => {
                   
                   <div className="experience__description__study">
                      <div className="experience__date"><p>2018</p></div>
-                     <div className="experience__logo"><img src="./logo_formation/coteclient_100px.png"/></div>
+                     <div className="experience__logo"><img src="./logo_formation/coteclient_100px.png" alt="logo_coteClient" /></div>
                      <div className="experience__name">
                         <p>Côté Client</p>
                         <p>Chargé d'études</p>
@@ -45,7 +45,7 @@ const Experiences = () => {
 
                   <div className="experience__description__study">
                      <div className="experience__date"><p>2017</p></div>
-                     <div className="experience__logo"><img src="./logo_formation/decitre_100px.png"/></div>
+                     <div className="experience__logo"><img src="./logo_formation/decitre_100px.png" alt="logo_decitre"/></div>
                      <div className="experience__name">
                         <p>Decitre</p>
                         <p>Chargé de mission marketing</p>
@@ -56,7 +56,7 @@ const Experiences = () => {
 
                <div className="experience__image">
                   <p>EXPERIENCES</p>
-                  <img src="./Images/laptop-g518aa136d_1280.png"/>
+                  <img src="./Images/laptop-g518aa136d_1280.png" alt="experience_picture"/>
                </div>
             </div>
          </div>

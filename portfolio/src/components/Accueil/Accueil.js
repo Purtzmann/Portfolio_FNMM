@@ -6,12 +6,13 @@ import Heure from './Heure';
 const Accueil = () => {
 
 	const dispatch = useDispatch();
+   
 	useEffect(() =>{
 		dispatch(fetchWeatherAction("La Rochelle"))
 	},[])
 	
 	const state = useSelector(state => state);
-	const { weather, loading, error} = state;
+	const { weather} = state;
 
    return (
       <section className="accueil">
@@ -45,7 +46,7 @@ const Accueil = () => {
                <h2 className="informations__bonjour">Bonjour, je suis</h2>
                <p className="informations__identite">François-Nicolas Marc-Martin,</p>
                <p className="informations__metier">Developpeur Web. </p>
-               <p className="informations__presentation">Je suis développeur web junior spécialisé dans la création de site web. Actuellement à la recheche d'un job en tant que développeur front end.</p>
+               <p className="informations__presentation">Je suis développeur web junior spécialisé dans la création de site web. Actuellement à la recherche d'un job en tant que développeur front end dans la région Rochelaise.</p>
             </div>
          </div>
       </section>

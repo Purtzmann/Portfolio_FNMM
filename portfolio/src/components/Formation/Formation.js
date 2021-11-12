@@ -15,14 +15,14 @@ const Formation = () => {
 
                <div className="formation__image">
                   <p>FORMATIONS</p>
-                  <img src="./Images/laptop-g518aa136d_1280.png"/>
+                  <img src="./Images/laptop-g518aa136d_1280.png" alt="formation_picture"/>
                </div>
 
                <div className="formation__description">
 
                   <div className="formation__description__study openclassrooms">
                      <div className="formation__date"><p>2020</p></div>
-                     <div className="formation__logo"><img src="./logo_formation/openClassRooms_100px.png"/></div>
+                     <div className="formation__logo"><img src="./logo_formation/openClassRooms_100px.png" alt="logo_openclassrooms" /></div>
                      <div className="formation__name">
                         <p>OPENCLASSROOMS</p>
                         <p>Web Developper</p>
@@ -31,7 +31,7 @@ const Formation = () => {
 
                   <div className="formation__description__study esdes">
                      <div className="formation__date"><p>2017</p></div>
-                     <div className="formation__logo"><img src="./logo_formation/esdes_100px.png"/></div>
+                     <div className="formation__logo"><img src="./logo_formation/esdes_100px.png" alt="logo_esdes"/></div>
                      <div className="formation__name">
                         <p>ESDES</p>
                         <p>Master Marketing</p>
@@ -41,7 +41,7 @@ const Formation = () => {
                   
                   <div className="formation__description__study baccalaureat">
                      <div className="formation__date"><p>2020</p></div>
-                     <div className="formation__logo"><img src="./logo_formation/iconmonstr-school-21-96.png"/></div>
+                     <div className="formation__logo"><img src="./logo_formation/iconmonstr-school-21-96.png" alt="logo_bac"/></div>
                      <div className="formation__name">
                         <p>BACCALAUREAT</p>
                         <p>ES option Mathématique</p>

@@ -4,7 +4,7 @@
    flex-direction: column;
    align-items: center;
    height: 80vh;
-   @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+   @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
       justify-content: center;
       height: 100vh;
    }
@@ -55,22 +55,22 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+      @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
          flex-direction: row;
       }
-      @media only screen and (min-device-width : 1024px)  {
+      @media only screen and (min-width : 1024px)  {
          flex-direction: row;
       }
    }
 
    &__description{
-      @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+      @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
          width: 50%;
          p{
             font-size: 1.4rem;
          }
       }
-      @media only screen and (min-device-width : 1024px)  {
+      @media only screen and (min-width : 1024px)  {
          width: 50%;
          p{
             font-size: 1.4rem;
@@ -105,10 +105,10 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+      @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
          width: 50%;
       }
-      @media only screen and (min-device-width : 1024px)  {
+      @media only screen and (min-width : 1024px)  {
          width: 50%;
       }
 
@@ -119,11 +119,11 @@
          transform: rotate(45deg);
          position: absolute;
          margin-top: 100px;
-         @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+         @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
             width: 200px;
             height: 200px;
          }
-         @media only screen and (min-device-width : 1024px)  {
+         @media only screen and (min-width : 1024px)  {
             width: 300px;
             height: 300px;
          }
@@ -135,11 +135,11 @@
          transform: rotate(45deg);
          position: relative;
          bottom: -30px;
-         @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+         @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
             width: 200px;
             height: 200px;
          }
-         @media only screen and (min-device-width : 1024px)  {
+         @media only screen and (min-width : 1024px)  {
             width: 300px;
             height: 300px;
          }
@@ -148,13 +148,13 @@
             transform: rotate(316deg);
             border-radius: 100%;
             width: 100px;
-            @media only screen and (min-device-width : 768px)  and (max-device-width : 1024px)  {
+            @media only screen and (min-width : 768px)  and (max-width : 1024px)  {
                width: 150px;
                position: absolute;
                top: 51px;
                left: 51px;
             }
-            @media only screen and (min-device-width : 1024px)  {
+            @media only screen and (min-width : 1024px)  {
                width: 250px;
                position: absolute;
                top: 51px;
