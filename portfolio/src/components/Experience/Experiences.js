@@ -56,7 +56,7 @@ const Experiences = () => {
 
                <div className="experience__image">
                   <p>EXPERIENCES</p>
-                  <img src="./Images/laptop-g518aa136d_1280.png" alt="experience_picture"/>
+                  <img src="./images/laptop-g518aa136d_1280.png" alt="experience_picture"/>
                </div>
             </div>
          </div>

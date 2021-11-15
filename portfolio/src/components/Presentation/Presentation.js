@@ -24,7 +24,7 @@ const Presentation = () => {
 
                <div className="about__image">
                   <div className="bloc1"></div>
-                  <div className="bloc2"><img src="./Images/photo de profil N&B-modified.png" alt="picto-user"/></div>
+                  <div className="bloc2"><img src="./images/photo de profil N&B-modified.png" alt="picto-user"/></div>
                </div>
             </div>
          </div>
