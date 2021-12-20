@@ -14,7 +14,24 @@ const Projets = () => {
             </div>
 
             <div className="projects__content">
-            
+            <a href="https://galerieparadis.fr">
+                  <div className="project__bloc">
+                     <div className="project__content">
+                        <p>GALERIE PARADIS</p>
+                     </div>
+                     <div className="project__description">
+                        <p>SITE GALERIE D'ART POUR DEUX ARTISTES</p>
+                     </div>
+                     <div className="project__image">
+                        <img src="./logo_techno/VS_60px.png" alt="" />
+                        <img src="./logo_techno/vuejs_60px.png" alt="" />
+                        <img src="./logo_techno/vuex_60px.png" alt="" />
+                        <img src="./logo_techno/sass_60px.png" alt="" />
+                        <img src="./logo_techno/html_60px.png" alt="" />
+                        <img src="./logo_techno/css_60px.png" alt="" />
+                     </div>
+                  </div>
+               </a>
                <a href="https://github.com/Purtzmann/francoisnicolasmarcmartin_7_15062021">
                   <div className="project__bloc">
                      <div className="project__content">
@@ -87,21 +104,6 @@ const Projets = () => {
                      </div>
                      <div className="project__description">
                         <p>MOBILE WEBISTE POUR DES CARTES DE RESTAURANTS</p>
-                     </div>
-                     <div className="project__image">
-                        <img src="./logo_techno/VS_60px.png" alt="" />
-                        <img src="./logo_techno/html_60px.png" alt="" />
-                        <img src="./logo_techno/css_60px.png" alt="" />
-                     </div>
-                  </div>
-               </a>
-               <a href="https://github.com/Purtzmann/francoisnicolasmarcmartin_2_15012021">
-                  <div className="project__bloc">
-                     <div className="project__content">
-                        <p>RESERVIA</p>
-                     </div>
-                     <div className="project__description">
-                        <p>HOME PAGE POUR UN SITE DE RESERVATION </p>
                      </div>
                      <div className="project__image">
                         <img src="./logo_techno/VS_60px.png" alt="" />
